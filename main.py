@@ -270,6 +270,11 @@ def specialDay():
     if qixi_m==month and qixi_d==day:
         print("today is qixiday!!!!!!")
         return("七夕快乐！！我的臭宝儿~快过来让我mua一个~")
+    
+    elif 2==month and 14==day: #验证情人节
+        print("today is valentinesday!!!!!!")
+        return("情人节快乐！！我的臭宝儿~快过来让我mua一个~")
+    
     else: 
         return 0
 
