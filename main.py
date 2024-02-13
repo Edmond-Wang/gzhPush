@@ -277,7 +277,7 @@ def specialDay():
 
 if __name__ == "__main__":
     try:
-        with open("gzhPush\config.txt", encoding="utf-8") as f:
+        with open("config.txt", encoding="utf-8") as f:
             config = eval(f.read())
     except FileNotFoundError:
         print ("111111")
